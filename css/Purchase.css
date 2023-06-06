@@ -1,0 +1,67 @@
+form {
+    width: 1400px;
+    
+    margin-left: 50px;
+    
+}
+
+.head{
+font-size:30px;
+ border-top:solid 1px #707070;
+} 
+label,button  {
+   display: block;
+  }
+  
+.text{
+  width:330px;
+}
+.btn-add{
+    padding: auto;    
+}
+.btn-remove{
+  padding: auto;
+  display:none;
+}
+ .Productlabel
+ {
+   margin-left: 20px;
+   width:1250px;
+   border: solid 1px #cdcdcd;
+ }
+ .uppercase{
+   
+   font-size:25px;
+   color:#cdcdcd;
+ }
+
+ .lowercase{
+   
+   font-size:20px;
+   color:#cdcdcd;
+ }
+ .push{
+   width: 150px;
+   padding: 10px;
+   margin-left: 20px;
+   box-shadow: 0 1px #cdcdcd;
+   border-radius: 5px;
+   border:none;
+   background-color: #FFC107;
+   text-align: center;
+   cursor: pointer;
+ }
+ .push:hover{
+   color: #ffffff;
+   background-color: #e7b41b; 
+   text-decoration: none; 
+ }
+ #btn_address{
+   margin-top: 20px;
+ }
+ #btn_Cash{
+   margin-top: 50px;
+ }
+ #btn_decision{
+   margin-top: 20px;
+ }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/Purchase.css"/>
+  <script type="text/javascript" src='../Purcahse.js'></script>
+    <title>購入画面</title>
+    
+
+  </head>
+  <body>
+  <nav class="navigation-bar"> 
+  </nav>
+<div  class ="Purchase">
+  <form action="" method="">
+<div class="Pick-uplocation">
+  <p class="head">1.受取場所</p>
+  <input type="text" name="text[]"class="text"  placeholder="住所の入力"></input>
+  <button type="button" class="btn-add">+</button>
+  <button type="button" class="btn-remove">-</button>
+  <button type="button" class="push" id="btn_address">この場所で受取</button>
+  
+</div>
+<div class="PaymentInformation">
+  <p class="head">2.お支払情報</p>
+  <label for="Cashlabel">
+    <input type="radio" name="payment" value="Cash" id="Cashlabel">
+  代金引換</input>
+  </label>
+  <label for="Electroniclabel">
+   <input type="radio" name="payment" value="Electronic" id="Electroniclabel">
+  コンビニ・ATM・ネットバンキング・ 電子マネー払い</input>
+</label>
+<button type="button" class="push" id="btn_Cash">この支払方法を使う</button>
+</div>
+<div class="ProductInformation">
+  <p class="head">3.商品情報</p>
+  <label class="Productlabel">
+    <p class="uppercase">お届け予定日：</p>
+    <p class="lowercase">商品名:</p>
+    <p class="lowercase">商品詳細：</p>
+  </label>
+  <br/>
+  <label class="Productlabel">
+    <p class="uppercase">ご請求金額：</p>
+    <p class="lowercase">ご請求金額:「注文を確定する」ボタンを押してご注文いただくことで、お客様は当サイトの各種規約、プライバシー規約および当サイト上の販売条件に同意の上、
+      商品をご注文されたことになります。 価格については必ず商品ページおよびこちらをご確認ください。</p>
+    <br/>
+  </label>
+  <br/>
+  <button type="button" class="push" id="btn_decision">注文確定</button>
+  <br/>
+</div>
+</form>
+</div>
+
+    
+    
+
+  </body>
+</html>
