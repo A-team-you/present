@@ -1,0 +1,33 @@
+/*テーブルのcss*/
+.table-confirmation {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    table-layout: fixed;
+}
+/*1列目のthの中身を折り返しさせない*/
+.table-bordered th:first-child{
+    white-space: nowrap;
+}
+/*tdの中身を折り返す*/
+.table-bordered td{
+    word-wrap: break-word;
+}
+/*ボタンを囲むコンテナ*/
+.content-button{
+    text-align: center;
+}
+/*ボタンのcss*/
+.botton{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*要素を横並び*/
+.content-font{
+    display: flex;
+}
+/*文字色*/
+.font{
+    color: red;
+}
