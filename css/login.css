@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    /*折り返し*/
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/*カーソル合わせた時文字の変更*/
+p.hover-color:hover {
+    color: #FF0000;
+}
+
+/*フッター*/
+footer {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    padding: 40px 0;
+    background-color: darkgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*フッターの要素*/
+.footer-element {
+    display: flex;
+    justify-content: center;
+}
+
+/*フォントの要素*/
+.content-font {
+    display: flex;
+    justify-content: center;
+}
