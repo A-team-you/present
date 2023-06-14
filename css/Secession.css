@@ -1,0 +1,67 @@
+form{
+    width: 750px;
+    border: solid 1px #cdcdcd;
+    margin:auto;
+    margin-top:150px;
+}
+.left {
+    display: table;
+    width: 100%;
+    background-color: #EE4E4E;
+    border-bottom: solid 1.5px #cdcdcd;;
+}
+
+h1 {
+    display: table-cell;
+    text-align: left;
+    color:#F8F0F0;
+    font-weight:normal;
+    padding-left:10px;
+}
+
+.right {
+    display: table-cell;
+    text-align: right;
+    padding-right: 30px;
+}
+h2{
+    color:#F8F0F0;
+}
+#text1{
+font-size: 24px;
+color:#0E0E0E;
+padding-top: 0px;
+padding-left: 10px;
+}
+#text2{
+color:#707070;
+text-align: center;
+}
+#text3{
+color:#707070;
+text-align: center;
+}
+button{
+    margin-bottom: 10px;
+}
+.btn-secession{
+    height: 40px;
+    width: 170px;
+    color: #F8F0F0;
+    border-radius: 90px;
+    border: none;
+    background-color:#EA4040 ;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 160px;
+}
+.btn-cancel{
+    height: 40px;
+    width: 170px;
+    border-radius: 90px;
+    border-color: #707070;
+    background-color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 140px;
+}
