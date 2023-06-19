@@ -25,7 +25,7 @@
 
     .table tbody th,
     .table tbody td {
-        padding: 12px;
+        padding: 20px 12px;
         border-bottom: 1px solid #687370;
     }
 
@@ -46,9 +46,6 @@
     }
 
     select {
-      /*-moz-appearance: none;
-      -webkit-appearance: none;
-      /*border: none;*/
       border-radius: 5px;
       color: #333;
       font-size: 16px;
@@ -56,11 +53,15 @@
       height: 30px;
       width: 500px;
       position: relative;
-      background:url({https://ginneko-atelier.com}/assets/arrow.svg) no-repeat right 10px center / 16px auto;
+      background:no-repeat right 10px center / 16px auto;
     }
 
     option[selected][disabled] {
       display: none;
+    }
+    .txt{
+      width: 100%;
+      line-height: 2;
     }
 
     textarea {
@@ -69,24 +70,24 @@
     }
 
     a.btn_04 {
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-	text-decoration: none;
-	width: 120px;
-	margin: auto;
-	padding: 1rem 4rem;
-	font-weight: bold;
-	border: 2px solid #DB8A8A;
-	background: #DB8A8A;
-	color: #fff;
-	border-radius: 100vh;
-	transition: 0.5s;
-}
-a.btn_04:hover {
-	color: #DB8A8A;
-	background: #fff;
-}
+	    display: block;
+	    text-align: center;
+	    text-decoration: none;
+	    width: 120px;
+	    margin: auto;
+	    padding: 1rem 4rem;
+	    font-weight: bold;
+	    border: 2px solid #DB8A8A;
+	    background: #DB8A8A;
+	    color: #fff;
+	    border-radius: 100vh;
+	    transition: 0.5s;
+    }
+
+    a.btn_04:hover {
+	    color: #DB8A8A;
+	    background: #fff;
+    }
 
 
     
@@ -121,13 +122,13 @@ a.btn_04:hover {
           <tr>
             <th>名前<span>※</span></th>
             <td>
-              <input type="text" name="name" size="70">
+              <input type="text" name="name" class = "txt">
             </td>
           </tr>
           <tr>
             <th>メールアドレス<span>※</span></th>
             <td>
-              <input type="text" name="mail" size="70">
+              <input type="text" name="mail" class = "txt">
             </td>
           </tr>
           <tr>
@@ -142,7 +143,7 @@ a.btn_04:hover {
           <tr>
             <th>電話番号</th>
             <td>
-              <input type="text" name="phone" size="70">
+              <input type="text" name="phone" class = "txt">
             </td>
           </tr>
           <tr>
