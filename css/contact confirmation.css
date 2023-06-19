@@ -1,0 +1,82 @@
+
+    h1{
+        text-align: center;
+    }
+    label{
+      padding-left:350px;
+    }
+    span{
+      color: red;
+    }
+    .table {
+        border: 2px solid #687370;
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 6px;
+        overflow: hidden;
+        margin: auto;
+    }   
+
+    .table tbody th,
+    .table tbody td {
+        padding: 20px 12px;
+        border-bottom: 1px solid #687370;
+    }
+
+    .table tbody th {
+        background-color: #DB8A8A;
+        color: #000000;
+        width: 200px;
+    }
+
+    .table tbody td {
+        border-left: 1px solid #687370;
+        width: 500px;
+    }
+
+    .table tbody tr:last-child th,
+    .table tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    option[selected][disabled] {
+      display: none;
+    }
+
+    a.btn_04,
+    a.btn_05 {
+	    display: block;
+	    text-align: center;
+	    text-decoration: none;
+	    width: 120px;
+	    padding: 1rem 4rem;
+	    font-weight: bold;
+	    border: 2px solid #DB8A8A;
+	    background: #DB8A8A;
+	    color: #fff;
+	    border-radius: 100vh;
+	    transition: 0.5s;
+    }
+    a.btn_04:hover,
+    a.btn_05:hover {
+	    color: #DB8A8A;
+	    background: #fff;
+    }
+
+    a.btn_04{
+      margin: auto 5px auto auto;
+    }
+    a.btn_05{
+      margin: auto auto auto 5px;
+    }
+
+    .button{
+      display: flex;
+    }
+    
+
+
+    
+    
+    
+   
