@@ -1,3 +1,52 @@
-div{
-    font-size: large;
+body {
+    align-items: center;
+    text-align: center;
+    display: flexbox;
+}
+
+p {
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.user_register {
+    display: flexbox;
+    width: 50%;
+    padding: 0px;
+    margin: 0% 25% 0% 25%;
+}
+
+.user_register_title {
+    background-color: gainsboro;
+    margin: 0px;
+}
+
+.screen_transition {
+    text-align: left;
+}
+
+.form_group {
+    text-align: left;
+    margin: 10px 0px;
+
+    >input {
+        width: 100%;
+    }
+}
+
+.radio_button {
+    display: inline;
+}
+
+.check_box {
+    display: inline;
+}
+
+#age {
+    width: 50%;
+}
+
+#address_head,
+#address_foot {
+    width: 50px;
 }
