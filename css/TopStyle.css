@@ -1,0 +1,42 @@
+
+.contaner {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-contents {
+    width: 80%;
+    padding: 10px;
+}
+
+.side-menu {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    background-color: gray;
+}
+
+.pagedesign {
+    float: left;
+}
+
+.slide-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding: 0 0 1em;
+    margin: 0 0 2em 0;
+    scroll-behavior: smooth;
+}
+
+.slide-wrap .slide-content {
+    flex: 0 0 90%;
+    margin: 0 10px;
+    height: 100%;
+}
+
