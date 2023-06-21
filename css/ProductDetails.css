@@ -1,0 +1,72 @@
+div.left{
+    float: left;
+    width: 15%;
+    height:30%;
+}
+div.main{
+    float: left;
+    width: 38%;
+    height:30%;
+}
+.list{
+    list-style-type:none;
+    padding-top:110px;
+}
+.img-list{
+    width:100px;
+}
+
+.img-main{
+    padding-top: 80px;
+    width:400px;
+    
+}
+
+.rate-form {
+   
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+border-bottom: solid 1.5px #000;
+}
+/* .rate-form input[type=radio] {
+display: none;
+} */
+.rate-form label {
+position: relative;
+padding: 0 5px;
+/* cursor: pointer; */
+font-size: 35px;
+}
+.starY{
+    color: #ffcc00;
+}
+.starX{
+    color: #ccc;
+}
+/* .rate-form label:hover {
+color: #ffcc00;
+}
+.rate-form label:hover ~ label {
+color: #ffcc00;
+}
+.rate-form input[type=radio]:checked ~ label {
+color: #ffcc00;
+} */
+.push{
+width: 150px;
+padding: 10px;
+margin-left: 1300px;
+margin-bottom: 10px;
+box-shadow: 0 1px #cdcdcd;
+border-radius: 5px;
+border:none;
+background-color: #FFC107;
+text-align: center;
+cursor: pointer;
+}
+.push:hover{
+color: #ffffff;
+background-color: #e7b41b; 
+text-decoration: none; 
+}

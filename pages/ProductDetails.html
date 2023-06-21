@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/ProductDetails.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <title>商品詳細</title>
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Account</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">会員詳細</a>
+                                <a class="dropdown-item" href="#">注文履歴</a>
+                                <a class="dropdown-item" href="#">お気に入りリスト</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">ログアウト</a>
+                            </div>
+                        </li>
+                    </ul>
+    
+                    <form class="d-flex">
+                        <input class="form-control me-sm-0" type="search" placeholder="Search">
+                        <button class="btn btn-secondary mx-2 my-3 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="ml-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="currentColor"
+                        class="bi bi-cart" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="left">
+<ul class="list">
+    <li><img src="../assets/image/commodity.png" class="img-list" alt="..."></li>
+    <li><img src="../assets/image/commodity.png" class="img-list" alt="..."></li>
+    <li><img src="../assets/image/commodity.png" class="img-list" alt="..."></li>
+    <li><img src="../assets/image/commodity.png" class="img-list" alt="..."></li>
+    <li><img src="../assets/image/commodity.png" class="img-list" alt="..."></li>
+    <li><img src="../assets/image/commodity.png" class="img-list" alt="..."></li>
+</ul>
+    </div>
+    <div class="main">
+<img src="../assets/image/commodity.png" class="img-main" alt="...">
+    </div>
+    <br/><br/>
+<div id="product-name">　sample<div>
+<div class="rate-form">
+    <div id="price">　　　　　　　　　￥price(税込)</div>
+    <!-- <input id="star5" type="radio" name="rate" value="5"> -->
+    <label for="star5" class="starX">★</label>
+    <!-- <input id="star4" type="radio" name="rate" value="4"> -->
+    <label for="star4" class="starX">★</label>
+    <!-- <input id="star3" type="radio" name="rate" value="3"> -->
+    <label for="star3" class="starY">★</label>
+    <!-- <input id="star2" type="radio" name="rate" value="2"> -->
+    <label for="star2" class="starY">★</label>
+    <!-- <input id="star1" type="radio" name="rate" value="1"> -->
+    <label for="star1" class="starY">★</label>
+    
+    </div>
+    <br/>
+    <p id="description">
+        ～～～商品の説明～～～<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </p>
+    <button type="button" class="push" id="btn_cart">カートに入れる</button>
+    
+</body>
+<br>
+<footer>
+    <p style="color: white;">© All rights reserved by dmmwebcampmedia.</p>
+</footer>
+</html>
