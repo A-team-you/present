@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+}
+
+.br{
+  text-decoration:underline;
+}
+            
+label{
+  padding-left:350px;
+}
+
+h1{
+  padding-top: 70px;
+}
+            
+p{
+  text-align: center;
+}
+            
+span{
+  color: red;
+}
+            
+a.btn_04 {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border: 2px solid #DB8A8A;
+  background: #DB8A8A;
+  color: #fff;
+  border-radius: 100vh;
+  transition: 0.5s;
+}
+
+a.btn_04:hover {
+  color: #DB8A8A;
+  background: #fff;
+}
+
