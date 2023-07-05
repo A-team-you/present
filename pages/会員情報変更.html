@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+
+    <title>会員情報変更</title>
+    <link rel="stylesheet" href="../css/Member information change.css">
+    
+</head>
+
+<body>
+    <h1>ログイン情報</h1>
+    
+    <table class="table">
+        <tbody>
+          <tr>
+            
+            <th rowspan="2">メールアドレス</th>
+            <td>
+              現在のメールアドレスを入力してください。<br>
+              <input type="text" name="mail" class = "txt">
+            </td>
+            
+          </tr>
+          <tr>
+            
+            <td>
+              メールアドレスの再入力(確認用)<br>
+              <input type="text" name="mail" class = "txt">
+            </td>
+          </tr>
+          <tr>
+            <th>現在のパスワード</th>
+            <td>
+              現在のパスワードを入力してください。<br>
+              <input type="text" name="password" class = "txt">
+            </td>
+          </tr>
+          <tr>
+            <th rowspan="2">新しいパスワード</th>
+            <td>
+              パスワードを変更する場合のみ、新しいパスワードを入力してください。<br>
+              8文字以上16文字以下の半角英数字で入力してください。<br>
+              <input type="text" name="password" class = "txt">
+            </td>
+          </tr>
+          <tr>
+            
+            <td>
+              新しいパスワードの再入力(確認用)<br>
+              <input type="text" name="password" class = "txt">
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+      
+
+      <h1>お客様情報</h1>
+
+      <table class="table2">
+        <tbody>
+          <tr>
+            <th>名前</th>
+            <td>
+              <input type="text" name="name" class = "txt">
+              (例：山田太郎)
+            </td>
+          </tr>
+          <tr>
+            <th>ふりがな</th>
+            <td>
+              <input type="text" name="name" class = "txt">
+              (例：やまだたろう)
+            </td>
+          </tr>
+
+          <tr>
+            <th>性別</th>
+            <td>
+              <label><input type="radio" name="gender" />男性</label>
+              <label><input type="radio" name="gender" />女性</label>
+              <label><input type="radio" name="gender" />その他</label>
+            </td>
+            
+          </tr>
+
+          <tr>
+            <th>生年月日</th>
+            <td>
+              <div class="select">
+                <select class="year">
+                  <option selected disabled>yyyy</option>
+                  <option value="項目1">項目1</option>
+                  <option value="項目2">項目2</option>
+                </select>
+                年
+                <select class="month">
+                  <option selected disabled>mm</option>
+                  <option value="項目1">項目1</option>
+                  <option value="項目2">項目2</option>
+                </select>
+                月
+                <select class="day">
+                  <option selected disabled>dd</option>
+                  <option value="項目1">項目1</option>
+                  <option value="項目2">項目2</option>
+                </select>
+               日
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <th>郵便番号</th>
+            <td>
+              <input type="text" name="Zip code" class = "txt">
+              (例：9638811)ハイフンなし
+            </td>
+          </tr>
+
+          <tr>
+            <th>住所</th>
+            <td>
+              <input type="text" name="address" class = "txt">
+              (例：福島県郡山市方八町2丁目4番地15)
+            </td>
+          </tr>
+
+          <tr>
+            <th>電話番号</th>
+            <td>
+              <input type="text" name="phone number" class = "txt">
+              (例：08025631584)ハイフンなし
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br><br><a href="問い合わせ確認.html" class="btn_04">変更する</a>
+
+      
+</body>
+
+</html>
